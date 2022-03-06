@@ -1,0 +1,228 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'sanchez', serif;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #F9E8F0;
+}
+
+header{
+    height: 40px;
+    width: 100%;
+    min-width: 320px;
+    background-color: #F9B6C1;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .header_logo{
+    height: 35px;
+    width: 55px;
+    margin-left: 10px;
+}
+
+header ul{
+    display: none;
+}
+
+header .header_menu{
+    height: 30px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+main .main_cap_title{
+    margin-top: 20px;
+    text-align: center;
+    color: #6A5457;
+    font-size: 1.4rem;
+}
+
+main .main_cap_title p{
+   margin-top: 20px;
+}
+
+main .main_cap button{
+    margin-top: 50px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #F9B6C1;
+    color:#fff;
+}
+
+/*seccion los más pedidos*/
+ .info_cards h1{ 
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    color: #F9B6C1;
+    font-family: 'sacramento',cursive;
+    font-size: 3em;
+}
+
+.info_cards h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.info_cards_container{
+    display: flex;
+    height: 280px;
+    font-size: 18px;}
+    /* overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity; */ 
+
+
+.info_cards_container_one{
+    height: 240px;
+    width: 220px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.info_cards_container_one picture img{
+    height: 190px;
+    width: 210px;
+    align-items: left;
+}
+
+.info_cards_container_one h2{
+    margin-top: 5px;
+    font-size: 2rem;
+    color: #6A5457;
+}
+
+.info_cards_container_two{
+    height: 240px;
+    width: 220px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.info_cards_container_two picture img{
+    height: 190px;
+    width: 210px;  
+    align-items: left; 
+}
+
+.info_cards_container_two h2{
+    margin-top: 5px;
+    font-size: 2rem;
+    color: #6A5457;
+}
+
+.info_cards_container_three{
+    height: 240px;
+    width: 220px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.info_cards_container_three picture img{
+    height: 190px;
+    width: 210px;  
+    align-items: left;  
+}
+
+.info_cards_container_three h2{
+    margin-top: 5px;
+    font-size: 2rem;
+    color: #6A5457;
+}
+
+.info_cards_container_four{
+    height: 240px;
+    width: 220px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.info_cards_container_four picture img{
+    height: 190px;
+    width: 210px;  
+}
+
+.info_cards_container_four h2{
+    margin-top: 5px;
+    font-size: 2rem;
+    color: #6A5457;
+}
+
+.info_cards_description h1{
+    font-size: 2.2rem;
+}
+
+.info_cards_description p{
+    font-size: 1.4rem;
+    padding: 5px;
+}
+
+.info_cards_description picture img{
+    height: 190px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 20px;  
+}
+.info_cards_container p{
+    text-align: center;
+    color: #6A5457;
+
+}
+
+/*seccion orden especial*/
+
+.orden_especial h1{
+    height: 880px;
+    width: 100%;
+    min-width: 320px;
+    margin: 105px;
+    text-align: center;
+    color: #F9B6C1;
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+}
+
+
+/*seccion footer*/
+footer{
+    height: 200px;
+    width: 100%;
+    min-width: 320px;
+    background-color: #F9B6C1;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+
+footer .social{
+    margin-top: 15px;
+}
+footer .social img{
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}

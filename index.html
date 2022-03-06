@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchikiss</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Sanchez&display=swap" rel="stylesheet">              
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./desktop.css"> 
+</head>
+<body>
+    <header>
+        <picture>
+            <img class="header_logo" src="./img/Manchikiss.jpg" alt="logo company" widht=200px>
+        </picture>
+        <picture>
+            <img class="header_menu" src="./img/icons/menu.png" alt="icon menu">
+        </picture>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="paginas/losMasPedidos.html"> Los más pedidos</a></li>
+            <li><a href="paginas/ordenEspecial.html"> Orden especial</a></li>
+            <li><a href="paginas/contacto.html"> Contacto</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <!-- Portada -->
+        <div class="main_cap">
+            <div class="main_cap_title">
+                <h1>Tenemos el pastel ideal <br>para esa ocasión especial </h1>
+                <button>Iniciar</button>
+            </div>
+        </div>
+    </main>
+    <!-- Los más pedidos -->
+    <section class="info_cards">
+        <h1>Los más pedidos</h1>
+        <div class="info_cards_container">
+            <article class="info_cards_container_one">
+                <picture>
+                    <img src="./img/image 20.png" alt="Pastel1">
+                </picture>
+                <h2>Pastel de chocolate con <br>bastones de chocolate y <br>fresa encima.</h2>
+                <p>$130.00 - $280.00</p>
+                <button>Comprar</button>
+            </article>
+            <article class="info_cards_container_two">
+                <picture>
+                    <img src="./img/image 21.png" alt="pastel2">
+                </picture>
+                <h2>Pastel de vainilla con <br>almendras y fruta fresca <br>encima.</h2>
+                <p>$150.00 - $290.00</p>
+                <button>Comprar</button>
+            </article>
+            <article class="info_cards_container_three">
+                <picture>
+                    <img src="./img/image 22.png" alt="pastel3">
+                </picture>
+                <h2>Cheesecake con fresas y <br>blueberries.</h2>
+                <p>$100.00 - $150.00</p>
+                <button>Comprar</button>
+            </article>
+            <article class="info_cards_container_four">
+                <picture>
+                    <img src="./img/image 23.png" alt="pastel4">
+                </picture>
+                <h2>Pastel de crepas (con relleno <br>a elegir).</h2>
+                <p>$110.00 - $190.00</p>
+                <button>Comprar</button>
+            </article> 
+        
+        <p>¡No olvides agregarle adornos!</p>
+        </div>
+    </section>
+    <!-- Orden especial -->
+        <section class="orden_especial">
+            <h1>Orden especial</h1>
+             <form action="#">
+              <div class="contac_container_one">
+                <h2 class="contac_title">Pastel</h2>
+                   
+                    <label class="form_select_size" for="tamaño">
+                        <h2>Tamaño</h2>
+                    <select id="tamaño" name="tamaño" value="tamaño">
+                        <option value="">--Selecciona una opción--</option>
+                        <option value="chico">Chico</option>
+                        <option value="mediano">Mediano</option>
+                        <option value="Grande">Grande</option>
+                    </select>
+                    </label>
+                <label class="form_select_flavor" for="pan">
+                    <h2>Sabor del pan</h2>
+                <select id="pan" name="pan" value="pan">
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="Vainilla">Vainilla</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Marmoleado">Marmoleado</option>
+                </select>
+            </label>
+                
+                <label class="form_select_cobertura" for="cobertura">Sabor de la sobertura</label>
+                <select id="cobertura" name="cobertura" value="cobertura">
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="buttercream">Buttercream</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="Fondant">Fondant</option>
+                </select>       
+                
+                <label class="form_relleno" for="relleno">Sabor del relleno</label>
+                <select id="relleno" name="relleno" value="relleno">
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="mermelada">Mermelada de fresa</option>
+                    <option value="avellana">Avellana</option>
+                    <option value="cajeta">Cajeta</option>
+                </select> 
+            </div class="colores">
+                <p>Color</p>
+                <input type="Color" id="cobertura">
+                <label class="form_colores" for="colores">Cobertura</label>
+            </div>    
+            <div class="adornos">
+                <p>¿Quieres adornos en tu pastel?</p>
+                
+                <input type="radio" id="adornosSi" name="adornosSioNo" value="si">
+                <label for="adornoSi">Si</label>
+                <input type="radio" id="adornosNo" name="adornosSioNo" value="no">
+                <label for="adornoNo">No</label>
+
+                <label class="form_adornos" for="adornos">Elige sus adornos</label>
+                <select id="adornos" name="adornos" value="adornos">
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="hbd">Happy Birthday</option>
+                    <option value="fc">Feliz cumpleaños #</option>
+                    <option value="toon">Caricatura</option>
+                </select> </div> 
+                <br><label for="text">Escribe el mensaje que debe de tener el pastel</label>
+                <input type="text" id="text" name="text" size="10">
+            
+
+            <div class="contac_container_two">
+                <h2 class="contac_title">Cliente</h2>
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name">
+                <label for="name">Teléfono</label>
+                <input type="number" id="phone" name="phone">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email">
+                <label for="date">Día del evento</label>
+                <input type="date" id="date" name="date">
+                <input type="submit">
+
+               
+        </section>
+
+    <footer>
+        <div>
+            <p>A<strong>Dirección</strong> Gral Ignacio Aldama S/N, Guadalupe, 80230 Culiacán Rosales, Sin.</p>
+            <p><strong>Teléfono</strong>     667 716 9815</p>
+            <p><strong>Horario</strong>     Lunes a Sábado<br>9:00 am a 5:00 pm</p>
+                
+        </div>
+        <div class="social">
+            <p>Siguenos</p>
+            <p>@manchikiss</p>
+            <picture>
+                <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram" width="34">
+            </picture>
+            <picture>
+                <img src="https://cdn-icons.flaticon.com/png/512/665/premium/665209.png?token=exp=1646593828~hmac=0dd1bb7bd251731513259172b4ae3b0e" alt="facebook" width="34"> 
+            </picture>
+        </div>
+    </footer>
+</body>
+</html>
