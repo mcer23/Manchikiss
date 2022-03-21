@@ -1,0 +1,84 @@
+
+header h1{
+
+    display:flex;
+    text-align: left;
+    font-size: 36px;
+    margin-left: 70px;
+    /* style */
+    color:#3342CD;
+}
+header ul{
+    display: flex; 
+    justify-content: space-around;
+    width: 800px;
+    padding-top: 15px;
+    list-style: none;
+    /* style */
+    color:#7B7A93;
+    font-weight: bold;
+}
+ul button{
+    /* style */
+    background-color: #3342CD;
+    box-shadow: -2px 4px 10px 3px
+    rgba(51, 66, 205, 0.25);
+    border-radius: 5px;
+    color:#fff;
+    padding:20px;
+    margin:20px 30px;
+
+    
+}
+
+.text-nurse{
+    display:flex;
+}
+.primero h1{
+    
+    font-size: 36px;
+    font-weight: 800;
+    /* style */
+    color:#1B2479;
+}
+.primero h3{
+    
+    font-size: 18px;
+    /* style */
+    color:#7B7A93;
+}
+.nurse{
+    display:flex;
+    float:right;
+    padding-top: -100%;
+}
+.amarillo {
+    display:flex;
+    /* style */
+    color:#7B7A93;
+}
+.blue{
+    display:flex;
+}
+
+.info-date{
+    display:flex;
+    /* style */
+    color:#7B7A93;
+}
+.info-date p{
+    display:flex;
+    /* style */
+    color:#1B2479;
+    font-weight: bold;
+}
+.info-date button{
+    /* style */
+    background-color: #3342CD;
+    box-shadow: -2px 4px 10px 3px
+    rgba(51, 66, 205, 0.25);
+    border-radius: 5px;
+    color:#fff;
+    padding:20px;
+    margin:20px 30px;
+}
